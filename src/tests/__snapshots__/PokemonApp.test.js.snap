@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <PokemonApp /> debe de mostrar una lista de pokemon 1`] = `
+<Fragment>
+  <h2
+    className="header-title"
+  >
+    Listado de Pokemon
+  </h2>
+  <AddPokemon
+    setPokemones={[Function]}
+  />
+  <ol
+    className="container"
+  >
+    <PokemonGrid
+      key="Bulbasaur"
+      pokemonNameOrId="Bulbasaur"
+    />
+    <PokemonGrid
+      key="Ivysaur"
+      pokemonNameOrId="Ivysaur"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Pruebas en <PokemonApp /> debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h2
+    className="header-title"
+  >
+    Listado de Pokemon
+  </h2>
+  <AddPokemon
+    setPokemones={[Function]}
+  />
+  <ol
+    className="container"
+  >
+    <PokemonGrid
+      key="bulbasaur"
+      pokemonNameOrId="bulbasaur"
+    />
+  </ol>
+</Fragment>
+`;

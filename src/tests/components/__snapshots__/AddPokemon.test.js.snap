@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddPokemon /> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <p />
+    <input
+      onChange={[Function]}
+      placeholder="Buscar"
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;
