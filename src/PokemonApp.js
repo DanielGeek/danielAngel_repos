@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { AddPokemon } from './components/AddPokemon';
 import { PokemonGrid } from './components/PokemonGrid';
 
-export const PokemonApp = ({ defaultPokemon = ['bulbasaur'] }) => {
+export const PokemonApp = ({ defaultPokemon = [...Array(4)].map( ( value, index ) => `${ index + 1 }`) }) => {
 
   const [pokemones, setPokemones] = useState(defaultPokemon);
 

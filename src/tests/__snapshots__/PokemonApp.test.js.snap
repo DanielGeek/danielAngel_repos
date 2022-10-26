@@ -39,8 +39,20 @@ exports[`Pruebas en <PokemonApp /> debe mostrarse correctamente 1`] = `
     className="container"
   >
     <PokemonGrid
-      key="bulbasaur"
-      pokemonNameOrId="bulbasaur"
+      key="1"
+      pokemonNameOrId="1"
+    />
+    <PokemonGrid
+      key="2"
+      pokemonNameOrId="2"
+    />
+    <PokemonGrid
+      key="3"
+      pokemonNameOrId="3"
+    />
+    <PokemonGrid
+      key="4"
+      pokemonNameOrId="4"
     />
   </ol>
 </Fragment>
